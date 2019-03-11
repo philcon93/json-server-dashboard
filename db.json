@@ -1,11 +1,37 @@
 {
-    "posts": [
-      {
-        "id": 1,
-        "title": "hello"
-      }
-    ],
-    "profile": {
-      "name": "philcon"
-    }
+    "notifications" : {
+        "total": 7,
+        "msg": [
+            { 
+                "link": "#", 
+                "content": "You have <strong>4</strong> pending shipping manifests"
+            },
+            { 
+                "link": "#", 
+                "content": "You have <strong>3</strong> unapproved product reviews"
+            }
+        ]
+    },
+    "user" : {
+        "id": 1234,
+        "name": "Phil Connah",
+        "userGroup": {
+            "id": 103,
+            "title": "Warehouse user"
+        }
+    },
+    "warehouses" : [
+        {
+            "id": "01",
+            "name": "Primary Warehouse",
+            "link": "#",
+            "selected": true
+        },
+        {
+            "id": "02",
+            "name": "Secondary Warehouse",
+            "link": "#",
+            "selected": false
+        }
+    ]    
   }
