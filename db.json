@@ -12,6 +12,13 @@
             }
         ]
     },
+    "page" : {
+        "title": "Sales orders",
+        "breadcrumbs": [
+          { "content": "Dashboard" },
+          { "content": "Sales order" }
+        ]
+    },
     "user" : {
         "id": 1234,
         "name": "Phil Connah",
