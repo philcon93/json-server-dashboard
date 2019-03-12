@@ -1,14 +1,16 @@
 {
     "notifications" : {
         "total": 7,
-        "msg": [
+        "data": [
             { 
-                "link": "#", 
-                "content": "You have <strong>4</strong> pending shipping manifests"
+                "href": "#",
+                "total": 4,
+                "type": "pending shipping manifests"
             },
             { 
-                "link": "#", 
-                "content": "You have <strong>3</strong> unapproved product reviews"
+                "href": "#",
+                "total": 3,
+                "type": "unapproved product reviews"
             }
         ]
     },
@@ -29,16 +31,18 @@
     },
     "warehouses" : [
         {
-            "id": "01",
+            "id": "1",
+            "active": true,
             "name": "Primary Warehouse",
-            "link": "#",
-            "selected": true
+            "ref": "WH01",
+            "href": "#"
         },
         {
-            "id": "02",
+            "id": "2",
+            "active": false,
             "name": "Secondary Warehouse",
-            "link": "#",
-            "selected": false
+            "ref": "WH02",
+            "href": "#"
         }
     ]    
   }
