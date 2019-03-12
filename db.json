@@ -40,6 +40,9 @@
                 {  "href": "#", "total": 4, "type": "pending shipping manifests" },
                 {  "href": "#", "total": 3, "type": "unapproved product reviews" }
             ]
+        },
+        "help" : {
+            "href": "#"
         }
     }
 }
