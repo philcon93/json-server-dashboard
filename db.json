@@ -1,48 +1,45 @@
 {
-    "notifications" : {
-        "total": 7,
-        "data": [
-            { 
-                "href": "#",
-                "total": 4,
-                "type": "pending shipping manifests"
-            },
-            { 
-                "href": "#",
-                "total": 3,
-                "type": "unapproved product reviews"
-            }
-        ]
-    },
     "page" : {
         "title": "Sales orders",
         "breadcrumbs": [
-          { "content": "Dashboard" },
-          { "content": "Sales order" }
+          { "href": "#", "content": "Dashboard" },
+          { "href": "#", "content": "Sales order" }
         ]
     },
-    "user" : {
-        "id": 1234,
-        "name": "Phil Connah",
-        "userGroup": {
-            "id": 103,
-            "title": "Warehouse user"
-        }
-    },
-    "warehouses" : [
-        {
-            "id": "1",
-            "active": true,
-            "name": "Primary Warehouse",
-            "ref": "WH01",
-            "href": "#"
+    "toolbar" : {
+        "search" : {
+            "action": "quicksearch",
+            "options": [ 
+                { "value": "customer", "content": "Customers" },
+                { "value": "order", "content": "Orders" },
+                { "value": "item", "content": "Products" },
+                { "value": "rma", "content": "RMA" },
+                { "value": "asset", "content": "Asset" },
+                { "value": "eblist", "content": "eBay Listings" }
+            ]
         },
-        {
-            "id": "2",
-            "active": false,
-            "name": "Secondary Warehouse",
-            "ref": "WH02",
-            "href": "#"
+        "warehouses" : [
+            { "id": "1", "active": true, "name": "Primary Warehouse", "ref": "WH01", "href": "#" },
+            { "id": "2", "active": false, "name": "Secondary Warehouse", "ref": "WH02", "href": "#" }
+        ],
+        "user" : {
+            "id": 1234,
+            "name": "Phil Connah",
+            "links": [
+                { "type": "link", "href": "#", "content" : "Change my password" },
+                { "type": "link", "href": "#", "content" : "Manage subscription" },
+                { "type": "link", "href": "#", "content" : "Refer a friend" },
+                { "type": "link", "href": "#", "content" : "Mobile pick and pack interface" },
+                { "type": "external", "href": "#", "content" : "View webstore" },
+                { "type": "link", "href": "#", "content" : "Sign Out" }
+            ]
+        },
+        "notifications" : {
+            "total": 7,
+            "data": [
+                {  "href": "#", "total": 4, "type": "pending shipping manifests" },
+                {  "href": "#", "total": 3, "type": "unapproved product reviews" }
+            ]
         }
-    ]    
-  }
+    }
+}
