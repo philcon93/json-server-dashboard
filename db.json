@@ -26,12 +26,13 @@
             "id": 1234,
             "name": "Phil Connah",
             "links": [
-                { "type": "link", "href": "#", "content" : "Change my password" },
+                { "type": "link", "href": "https://www.netohq.com/support", "content" : "Support hub" },
+                { "type": "link", "href": "/chpwd", "content" : "Change my password" },
                 { "type": "link", "href": "#", "content" : "Manage subscription" },
-                { "type": "link", "href": "#", "content" : "Refer a friend" },
-                { "type": "link", "href": "#", "content" : "Mobile pick and pack interface" },
-                { "type": "external", "href": "#", "content" : "View webstore" },
-                { "type": "link", "href": "#", "content" : "Sign Out" }
+                { "type": "link", "href": "https://www.neto.com.au/refer-a-friend", "content" : "Refer a friend" },
+                { "type": "link", "href": "/do/suppliers/mobile", "content" : "Mobile pick and pack interface" },
+                { "type": "external", "href": "/", "content" : "View webstore" },
+                { "type": "link", "href": "/logout", "content" : "Sign Out" }
             ]
         },
         "notifications" : {
@@ -40,9 +41,6 @@
                 {  "href": "#", "total": 4, "type": "pending shipping manifests" },
                 {  "href": "#", "total": 3, "type": "unapproved product reviews" }
             ]
-        },
-        "help" : {
-            "href": "#"
         }
     }
 }
